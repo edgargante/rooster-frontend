@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B0E7E8D2845242B00E26F12 /* DisciplineDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0E7E8C2845242B00E26F12 /* DisciplineDetailView.swift */; };
+		7B0E7E8F284526D000E26F12 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0E7E8E284526D000E26F12 /* AppManager.swift */; };
+		7B0E7E932845417300E26F12 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0E7E922845417300E26F12 /* ProfileViewModel.swift */; };
+		7B31391F2824C7F400D39A56 /* olimpiadasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B31391E2824C7F400D39A56 /* olimpiadasApp.swift */; };
+		7B3139212824C7F400D39A56 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3139202824C7F400D39A56 /* WelcomeView.swift */; };
+		7B3139232824C7F700D39A56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B3139222824C7F700D39A56 /* Assets.xcassets */; };
+		7B3139262824C7F700D39A56 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B3139252824C7F700D39A56 /* Preview Assets.xcassets */; };
+		7B3139302824C7F700D39A56 /* olimpiadasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B31392F2824C7F700D39A56 /* olimpiadasTests.swift */; };
+		7B31393A2824C7F700D39A56 /* olimpiadasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3139392824C7F700D39A56 /* olimpiadasUITests.swift */; };
+		7B31393C2824C7F700D39A56 /* olimpiadasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B31393B2824C7F700D39A56 /* olimpiadasUITestsLaunchTests.swift */; };
+		7B31394A2824D35000D39A56 /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3139492824D35000D39A56 /* SignupViewModel.swift */; };
+		7B3139502824D3E400D39A56 /* Navajo-Swift in Frameworks */ = {isa = PBXBuildFile; productRef = 7B31394F2824D3E400D39A56 /* Navajo-Swift */; };
+		7B3139542824D4D500D39A56 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3139532824D4D500D39A56 /* SignupView.swift */; };
+		7BA0724C2843D9AF0020C5FB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA0724B2843D9AF0020C5FB /* LoginView.swift */; };
+		7BA072522843E3060020C5FB /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7BA072512843E3060020C5FB /* Alamofire */; };
+		7BA072552843E4A10020C5FB /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA072542843E4A10020C5FB /* APIClient.swift */; };
+		7BA072572843E4BC0020C5FB /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA072562843E4BC0020C5FB /* APIRouter.swift */; };
+		7BA0725B2843E7DB0020C5FB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA0725A2843E7DB0020C5FB /* User.swift */; };
+		7BA0725E2843EA570020C5FB /* AlamofireNetworkActivityLogger in Frameworks */ = {isa = PBXBuildFile; productRef = 7BA0725D2843EA570020C5FB /* AlamofireNetworkActivityLogger */; };
+		7BA072602843F7950020C5FB /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA0725F2843F7950020C5FB /* LoginViewModel.swift */; };
+		7BA07263284422250020C5FB /* MainNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA07262284422250020C5FB /* MainNavigationView.swift */; };
+		7BA072662844464A0020C5FB /* DisciplineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA072652844464A0020C5FB /* DisciplineView.swift */; };
+		7BA0726928444A9C0020C5FB /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA0726828444A9C0020C5FB /* ProfileView.swift */; };
+		7BA0726B284452080020C5FB /* Discipline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA0726A284452080020C5FB /* Discipline.swift */; };
+		7BA0726D2844563C0020C5FB /* AddDisciplineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA0726C2844563C0020C5FB /* AddDisciplineView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B31392C2824C7F700D39A56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B3139132824C7F400D39A56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B31391A2824C7F400D39A56;
+			remoteInfo = olimpiadas;
+		};
+		7B3139362824C7F700D39A56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B3139132824C7F400D39A56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B31391A2824C7F400D39A56;
+			remoteInfo = olimpiadas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B0E7E8C2845242B00E26F12 /* DisciplineDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisciplineDetailView.swift; sourceTree = "<group>"; };
+		7B0E7E8E284526D000E26F12 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		7B0E7E922845417300E26F12 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		7B31391B2824C7F400D39A56 /* olimpiadas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = olimpiadas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B31391E2824C7F400D39A56 /* olimpiadasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = olimpiadasApp.swift; sourceTree = "<group>"; };
+		7B3139202824C7F400D39A56 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		7B3139222824C7F700D39A56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B3139252824C7F700D39A56 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7B31392B2824C7F700D39A56 /* olimpiadasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = olimpiadasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B31392F2824C7F700D39A56 /* olimpiadasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = olimpiadasTests.swift; sourceTree = "<group>"; };
+		7B3139352824C7F700D39A56 /* olimpiadasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = olimpiadasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B3139392824C7F700D39A56 /* olimpiadasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = olimpiadasUITests.swift; sourceTree = "<group>"; };
+		7B31393B2824C7F700D39A56 /* olimpiadasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = olimpiadasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7B3139492824D35000D39A56 /* SignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
+		7B3139532824D4D500D39A56 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		7BA0724B2843D9AF0020C5FB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7BA072542843E4A10020C5FB /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		7BA072562843E4BC0020C5FB /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		7BA0725A2843E7DB0020C5FB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7BA0725F2843F7950020C5FB /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		7BA07262284422250020C5FB /* MainNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationView.swift; sourceTree = "<group>"; };
+		7BA072652844464A0020C5FB /* DisciplineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisciplineView.swift; sourceTree = "<group>"; };
+		7BA0726828444A9C0020C5FB /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		7BA0726A284452080020C5FB /* Discipline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discipline.swift; sourceTree = "<group>"; };
+		7BA0726C2844563C0020C5FB /* AddDisciplineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDisciplineView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B3139182824C7F400D39A56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA0725E2843EA570020C5FB /* AlamofireNetworkActivityLogger in Frameworks */,
+				7B3139502824D3E400D39A56 /* Navajo-Swift in Frameworks */,
+				7BA072522843E3060020C5FB /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B3139282824C7F700D39A56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B3139322824C7F700D39A56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B0E7E902845415E00E26F12 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7BA0726828444A9C0020C5FB /* ProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7B0E7E912845416300E26F12 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7B0E7E922845417300E26F12 /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7B3139122824C7F400D39A56 = {
+			isa = PBXGroup;
+			children = (
+				7B31391D2824C7F400D39A56 /* olimpiadas */,
+				7B31392E2824C7F700D39A56 /* olimpiadasTests */,
+				7B3139382824C7F700D39A56 /* olimpiadasUITests */,
+				7B31391C2824C7F400D39A56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B31391C2824C7F400D39A56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B31391B2824C7F400D39A56 /* olimpiadas.app */,
+				7B31392B2824C7F700D39A56 /* olimpiadasTests.xctest */,
+				7B3139352824C7F700D39A56 /* olimpiadasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B31391D2824C7F400D39A56 /* olimpiadas */ = {
+			isa = PBXGroup;
+			children = (
+				7BA0724A2843D99C0020C5FB /* Model */,
+				7BA072532843E4910020C5FB /* Networking */,
+				7BA072462843D97E0020C5FB /* Flows */,
+				7B3139562825983B00D39A56 /* Application */,
+				7B3139222824C7F700D39A56 /* Assets.xcassets */,
+				7B3139242824C7F700D39A56 /* Preview Content */,
+			);
+			path = olimpiadas;
+			sourceTree = "<group>";
+		};
+		7B3139242824C7F700D39A56 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7B3139252824C7F700D39A56 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7B31392E2824C7F700D39A56 /* olimpiadasTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B31392F2824C7F700D39A56 /* olimpiadasTests.swift */,
+			);
+			path = olimpiadasTests;
+			sourceTree = "<group>";
+		};
+		7B3139382824C7F700D39A56 /* olimpiadasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B3139392824C7F700D39A56 /* olimpiadasUITests.swift */,
+				7B31393B2824C7F700D39A56 /* olimpiadasUITestsLaunchTests.swift */,
+			);
+			path = olimpiadasUITests;
+			sourceTree = "<group>";
+		};
+		7B3139482824D33400D39A56 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7B3139492824D35000D39A56 /* SignupViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7B3139562825983B00D39A56 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				7B31391E2824C7F400D39A56 /* olimpiadasApp.swift */,
+				7B0E7E8E284526D000E26F12 /* AppManager.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		7BA072462843D97E0020C5FB /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				7BA0726728444A930020C5FB /* Profile */,
+				7BA072642844463D0020C5FB /* Discipline */,
+				7BA07261284421FA0020C5FB /* MainNavigationView */,
+				7BA072592843E5E60020C5FB /* Welcome */,
+				7BA072582843E5DC0020C5FB /* Signup */,
+				7BA072472843D9870020C5FB /* Login */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		7BA072472843D9870020C5FB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7BA072492843D9940020C5FB /* ViewModel */,
+				7BA072482843D98F0020C5FB /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		7BA072482843D98F0020C5FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7BA0724B2843D9AF0020C5FB /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7BA072492843D9940020C5FB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7BA0725F2843F7950020C5FB /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7BA0724A2843D99C0020C5FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7BA0725A2843E7DB0020C5FB /* User.swift */,
+				7BA0726A284452080020C5FB /* Discipline.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7BA072532843E4910020C5FB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				7BA072542843E4A10020C5FB /* APIClient.swift */,
+				7BA072562843E4BC0020C5FB /* APIRouter.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		7BA072582843E5DC0020C5FB /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				7B3139482824D33400D39A56 /* ViewModel */,
+				7B3139532824D4D500D39A56 /* SignupView.swift */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		7BA072592843E5E60020C5FB /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				7B3139202824C7F400D39A56 /* WelcomeView.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		7BA07261284421FA0020C5FB /* MainNavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				7BA07262284422250020C5FB /* MainNavigationView.swift */,
+			);
+			path = MainNavigationView;
+			sourceTree = "<group>";
+		};
+		7BA072642844463D0020C5FB /* Discipline */ = {
+			isa = PBXGroup;
+			children = (
+				7BA072652844464A0020C5FB /* DisciplineView.swift */,
+				7BA0726C2844563C0020C5FB /* AddDisciplineView.swift */,
+				7B0E7E8C2845242B00E26F12 /* DisciplineDetailView.swift */,
+			);
+			path = Discipline;
+			sourceTree = "<group>";
+		};
+		7BA0726728444A930020C5FB /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				7B0E7E912845416300E26F12 /* ViewModel */,
+				7B0E7E902845415E00E26F12 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B31391A2824C7F400D39A56 /* olimpiadas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B31393F2824C7F700D39A56 /* Build configuration list for PBXNativeTarget "olimpiadas" */;
+			buildPhases = (
+				7B3139172824C7F400D39A56 /* Sources */,
+				7B3139182824C7F400D39A56 /* Frameworks */,
+				7B3139192824C7F400D39A56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = olimpiadas;
+			packageProductDependencies = (
+				7B31394F2824D3E400D39A56 /* Navajo-Swift */,
+				7BA072512843E3060020C5FB /* Alamofire */,
+				7BA0725D2843EA570020C5FB /* AlamofireNetworkActivityLogger */,
+			);
+			productName = olimpiadas;
+			productReference = 7B31391B2824C7F400D39A56 /* olimpiadas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B31392A2824C7F700D39A56 /* olimpiadasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B3139422824C7F700D39A56 /* Build configuration list for PBXNativeTarget "olimpiadasTests" */;
+			buildPhases = (
+				7B3139272824C7F700D39A56 /* Sources */,
+				7B3139282824C7F700D39A56 /* Frameworks */,
+				7B3139292824C7F700D39A56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B31392D2824C7F700D39A56 /* PBXTargetDependency */,
+			);
+			name = olimpiadasTests;
+			productName = olimpiadasTests;
+			productReference = 7B31392B2824C7F700D39A56 /* olimpiadasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B3139342824C7F700D39A56 /* olimpiadasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B3139452824C7F700D39A56 /* Build configuration list for PBXNativeTarget "olimpiadasUITests" */;
+			buildPhases = (
+				7B3139312824C7F700D39A56 /* Sources */,
+				7B3139322824C7F700D39A56 /* Frameworks */,
+				7B3139332824C7F700D39A56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B3139372824C7F700D39A56 /* PBXTargetDependency */,
+			);
+			name = olimpiadasUITests;
+			productName = olimpiadasUITests;
+			productReference = 7B3139352824C7F700D39A56 /* olimpiadasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B3139132824C7F400D39A56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					7B31391A2824C7F400D39A56 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					7B31392A2824C7F700D39A56 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 7B31391A2824C7F400D39A56;
+					};
+					7B3139342824C7F700D39A56 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 7B31391A2824C7F400D39A56;
+					};
+				};
+			};
+			buildConfigurationList = 7B3139162824C7F400D39A56 /* Build configuration list for PBXProject "olimpiadas" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B3139122824C7F400D39A56;
+			packageReferences = (
+				7B31394E2824D3E400D39A56 /* XCRemoteSwiftPackageReference "Navajo-Swift" */,
+				7BA072502843E3060020C5FB /* XCRemoteSwiftPackageReference "Alamofire" */,
+				7BA0725C2843EA570020C5FB /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityLogger" */,
+			);
+			productRefGroup = 7B31391C2824C7F400D39A56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B31391A2824C7F400D39A56 /* olimpiadas */,
+				7B31392A2824C7F700D39A56 /* olimpiadasTests */,
+				7B3139342824C7F700D39A56 /* olimpiadasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B3139192824C7F400D39A56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B3139262824C7F700D39A56 /* Preview Assets.xcassets in Resources */,
+				7B3139232824C7F700D39A56 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B3139292824C7F700D39A56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B3139332824C7F700D39A56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B3139172824C7F400D39A56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA072572843E4BC0020C5FB /* APIRouter.swift in Sources */,
+				7B3139542824D4D500D39A56 /* SignupView.swift in Sources */,
+				7B3139212824C7F400D39A56 /* WelcomeView.swift in Sources */,
+				7BA07263284422250020C5FB /* MainNavigationView.swift in Sources */,
+				7B0E7E8D2845242B00E26F12 /* DisciplineDetailView.swift in Sources */,
+				7BA0726928444A9C0020C5FB /* ProfileView.swift in Sources */,
+				7B31394A2824D35000D39A56 /* SignupViewModel.swift in Sources */,
+				7B0E7E8F284526D000E26F12 /* AppManager.swift in Sources */,
+				7BA0726B284452080020C5FB /* Discipline.swift in Sources */,
+				7BA072662844464A0020C5FB /* DisciplineView.swift in Sources */,
+				7BA0725B2843E7DB0020C5FB /* User.swift in Sources */,
+				7BA0724C2843D9AF0020C5FB /* LoginView.swift in Sources */,
+				7BA0726D2844563C0020C5FB /* AddDisciplineView.swift in Sources */,
+				7B0E7E932845417300E26F12 /* ProfileViewModel.swift in Sources */,
+				7B31391F2824C7F400D39A56 /* olimpiadasApp.swift in Sources */,
+				7BA072552843E4A10020C5FB /* APIClient.swift in Sources */,
+				7BA072602843F7950020C5FB /* LoginViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B3139272824C7F700D39A56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B3139302824C7F700D39A56 /* olimpiadasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B3139312824C7F700D39A56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B31393A2824C7F700D39A56 /* olimpiadasUITests.swift in Sources */,
+				7B31393C2824C7F700D39A56 /* olimpiadasUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B31392D2824C7F700D39A56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B31391A2824C7F400D39A56 /* olimpiadas */;
+			targetProxy = 7B31392C2824C7F700D39A56 /* PBXContainerItemProxy */;
+		};
+		7B3139372824C7F700D39A56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B31391A2824C7F400D39A56 /* olimpiadas */;
+			targetProxy = 7B3139362824C7F700D39A56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7B31393D2824C7F700D39A56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B31393E2824C7F700D39A56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B3139402824C7F700D39A56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"olimpiadas/Preview Content\"";
+				DEVELOPMENT_TEAM = W6445E222S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.gante.olimpiadas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B3139412824C7F700D39A56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"olimpiadas/Preview Content\"";
+				DEVELOPMENT_TEAM = W6445E222S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.gante.olimpiadas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7B3139432824C7F700D39A56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6445E222S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.gante.olimpiadasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/olimpiadas.app/olimpiadas";
+			};
+			name = Debug;
+		};
+		7B3139442824C7F700D39A56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6445E222S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.gante.olimpiadasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/olimpiadas.app/olimpiadas";
+			};
+			name = Release;
+		};
+		7B3139462824C7F700D39A56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6445E222S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.gante.olimpiadasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = olimpiadas;
+			};
+			name = Debug;
+		};
+		7B3139472824C7F700D39A56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6445E222S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.gante.olimpiadasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = olimpiadas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B3139162824C7F400D39A56 /* Build configuration list for PBXProject "olimpiadas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B31393D2824C7F700D39A56 /* Debug */,
+				7B31393E2824C7F700D39A56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B31393F2824C7F700D39A56 /* Build configuration list for PBXNativeTarget "olimpiadas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B3139402824C7F700D39A56 /* Debug */,
+				7B3139412824C7F700D39A56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B3139422824C7F700D39A56 /* Build configuration list for PBXNativeTarget "olimpiadasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B3139432824C7F700D39A56 /* Debug */,
+				7B3139442824C7F700D39A56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B3139452824C7F700D39A56 /* Build configuration list for PBXNativeTarget "olimpiadasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B3139462824C7F700D39A56 /* Debug */,
+				7B3139472824C7F700D39A56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7B31394E2824D3E400D39A56 /* XCRemoteSwiftPackageReference "Navajo-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Wistas23/Navajo-Swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		7BA072502843E3060020C5FB /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		7BA0725C2843EA570020C5FB /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityLogger" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/konkab/AlamofireNetworkActivityLogger.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7B31394F2824D3E400D39A56 /* Navajo-Swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B31394E2824D3E400D39A56 /* XCRemoteSwiftPackageReference "Navajo-Swift" */;
+			productName = "Navajo-Swift";
+		};
+		7BA072512843E3060020C5FB /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7BA072502843E3060020C5FB /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		7BA0725D2843EA570020C5FB /* AlamofireNetworkActivityLogger */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7BA0725C2843EA570020C5FB /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityLogger" */;
+			productName = AlamofireNetworkActivityLogger;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7B3139132824C7F400D39A56 /* Project object */;
+}

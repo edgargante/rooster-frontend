@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "354dda32d89fc8cd4f5c46487f64957d355f53d8",
+        "version" : "5.6.1"
+      }
+    },
+    {
+      "identity" : "alamofirenetworkactivitylogger",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/konkab/AlamofireNetworkActivityLogger.git",
+      "state" : {
+        "revision" : "8db9d4e27176905298e7215e3d800e349cdfa30b",
+        "version" : "3.4.0"
+      }
+    },
+    {
+      "identity" : "navajo-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Wistas23/Navajo-Swift.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "ccea9b73b6f44e796672b6f2c45d8b0d7db3b087"
+      }
+    }
+  ],
+  "version" : 2
+}
