@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct AddDisciplineView: View {
-    @Environment(\.dismiss) var dismiss
-    @State var inputText: String = ""
+    @Environment(\.presentationMode) var presentationMode
+    @State private var inputText: String = ""
+    @State var disciplines: [Discipline]
 
     var body: some View {
         NavigationView {
@@ -19,7 +20,10 @@ struct AddDisciplineView: View {
                     .frame(height: 1.0, alignment: .bottom)
                     .foregroundColor(Color.blue)
                 Spacer()
-                Button(action: {}) {
+                Button(action: {
+                    self.disciplines.append(Discipline(id: UUID().uuidString, name: inputText))
+                    presentationMode.wrappedValue.dismiss()
+                }) {
                     Text("Agregar")
                         .font(.headline)
                         .frame(maxWidth: 300)
@@ -31,6 +35,5 @@ struct AddDisciplineView: View {
             .padding()
             .navigationTitle("Agregar Disciplina")
         }
-        
     }
 }

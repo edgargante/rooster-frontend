@@ -9,14 +9,21 @@ import SwiftUI
 
 struct DisciplineDetailView: View {
     @State var discipline: Discipline
+    @State private var showEditView = false
+
     var body: some View {
         VStack {
             
         }
+        .sheet(isPresented: $showEditView) {
+            EditDisciplineView(discipline: self.discipline)
+        }
         .navigationTitle(discipline.name)
         .toolbar {
             Button (
-                action: { },
+                action: {
+                    showEditView.toggle()
+                },
                 label: {
                     Text("Editar")
                         .bold()

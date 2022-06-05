@@ -17,10 +17,15 @@ class APIClient {
         }
     }
     
-    static func getUserTest(id: String, completion:@escaping (Result<User, AFError>)->Void) {
-        performRequest(route: APIRouter.getUserTest(id: id), completion: completion)
-    }
+//    static func getUserTest(id: String, completion:@escaping (Result<User, AFError>)->Void) {
+//        performRequest(route: APIRouter.getUserTest(id: id), completion: completion)
+//    }
     
+    static func signup(id: Int, name: String, email: String, role: Int, password: String, completion:@escaping (Result<User, AFError>)->Void) {
+        performRequest(route: APIRouter.signup(id: id, name: name, email: email, role: role, password: password), completion: completion)
+        }
+    
+
 //    static func login(email: String, password: String, completion:@escaping (Result<User, AFError>)->Void) {
 //        performRequest(route: APIRouter.login(email: email, password: password), completion: completion)
 //    }

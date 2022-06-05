@@ -10,6 +10,7 @@
 		7B0E7E8D2845242B00E26F12 /* DisciplineDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0E7E8C2845242B00E26F12 /* DisciplineDetailView.swift */; };
 		7B0E7E8F284526D000E26F12 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0E7E8E284526D000E26F12 /* AppManager.swift */; };
 		7B0E7E932845417300E26F12 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0E7E922845417300E26F12 /* ProfileViewModel.swift */; };
+		7B1F5E7C2846FFA7007F86E3 /* EditDisciplineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1F5E7B2846FFA7007F86E3 /* EditDisciplineView.swift */; };
 		7B31391F2824C7F400D39A56 /* olimpiadasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B31391E2824C7F400D39A56 /* olimpiadasApp.swift */; };
 		7B3139212824C7F400D39A56 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3139202824C7F400D39A56 /* WelcomeView.swift */; };
 		7B3139232824C7F700D39A56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B3139222824C7F700D39A56 /* Assets.xcassets */; };
@@ -55,6 +56,7 @@
 		7B0E7E8C2845242B00E26F12 /* DisciplineDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisciplineDetailView.swift; sourceTree = "<group>"; };
 		7B0E7E8E284526D000E26F12 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
 		7B0E7E922845417300E26F12 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		7B1F5E7B2846FFA7007F86E3 /* EditDisciplineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDisciplineView.swift; sourceTree = "<group>"; };
 		7B31391B2824C7F400D39A56 /* olimpiadas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = olimpiadas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B31391E2824C7F400D39A56 /* olimpiadasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = olimpiadasApp.swift; sourceTree = "<group>"; };
 		7B3139202824C7F400D39A56 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
@@ -285,6 +287,7 @@
 				7BA072652844464A0020C5FB /* DisciplineView.swift */,
 				7BA0726C2844563C0020C5FB /* AddDisciplineView.swift */,
 				7B0E7E8C2845242B00E26F12 /* DisciplineDetailView.swift */,
+				7B1F5E7B2846FFA7007F86E3 /* EditDisciplineView.swift */,
 			);
 			path = Discipline;
 			sourceTree = "<group>";
@@ -446,6 +449,7 @@
 				7BA0726928444A9C0020C5FB /* ProfileView.swift in Sources */,
 				7B31394A2824D35000D39A56 /* SignupViewModel.swift in Sources */,
 				7B0E7E8F284526D000E26F12 /* AppManager.swift in Sources */,
+				7B1F5E7C2846FFA7007F86E3 /* EditDisciplineView.swift in Sources */,
 				7BA0726B284452080020C5FB /* Discipline.swift in Sources */,
 				7BA072662844464A0020C5FB /* DisciplineView.swift in Sources */,
 				7BA0725B2843E7DB0020C5FB /* User.swift in Sources */,

@@ -19,14 +19,14 @@ struct ProfileView: View {
                     Image(systemName: "person")
                         .resizable()
                         .frame(width: 32, height: 32)
-                    Text(user.firstName + " " + user.lastName)
+                    Text(user.name)
                         .bold()
                         .font(.title)
                     Text(user.email)
                         .font(.body)
                         .foregroundColor(.secondary)
                     switch user.role {
-                    case "0":
+                    case 0:
                         Text("Administrador")
                             .multilineTextAlignment(.center)
                             .padding()

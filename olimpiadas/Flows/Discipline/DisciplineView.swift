@@ -26,8 +26,6 @@ struct DisciplineView: View {
                         Text(discipline.name)
                         
                     }
-                    
-                    
                 }
             }
             .listStyle(.plain)
@@ -43,7 +41,7 @@ struct DisciplineView: View {
                     }
                 )
                 .sheet(isPresented: $showDisciplineSheet) {
-                    AddDisciplineView()
+                    AddDisciplineView(disciplines: disciplines)
                 }
             }
         }

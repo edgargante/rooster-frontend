@@ -13,12 +13,7 @@ struct olimpiadasApp: App {
     var body: some Scene {
         WindowGroup {
             Group {
-                isAuthenticated ? AnyView(MainNavigationView(user: User(
-                    userId: "1",
-                    firstName: "Edgar",
-                    lastName: "Gante",
-                    email: "admin@gmail.com",
-                    role: "0")
+                isAuthenticated ? AnyView(MainNavigationView(user: User(id: 55, name: "", password: "", email: "", role: 0)
                 ))
                 : AnyView(WelcomeView())
             }

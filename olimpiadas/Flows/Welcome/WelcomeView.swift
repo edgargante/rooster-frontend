@@ -21,7 +21,7 @@ struct WelcomeView: View {
             VStack {
                 Image("home-img")
                     .resizable()
-                    .scaledToFit()dwedew    
+                    .scaledToFit()
                 Text("Olimpiadas")
                     .bold()
                     .font(.system(size: 32))

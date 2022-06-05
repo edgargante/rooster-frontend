@@ -16,7 +16,21 @@ struct MainNavigationView: View {
                         Image(systemName: "rosette")
                         Text("Disciplinas")
                     }
-
+                Text("Entrenadores")
+                    .tabItem {
+                        Image(systemName: "person")
+                        Text("Entrenadores")
+                    }
+                Text("Competidores")
+                    .tabItem {
+                        Image(systemName: "person.3")
+                        Text("Competidores")
+                    }
+                Text("Jueces")
+                    .tabItem {
+                        Image(systemName: "shareplay")
+                        Text("Jueces")
+                    }
                 ProfileView(user: user)
                     .tabItem {
                         Image(systemName: "person.crop.circle")
@@ -26,3 +40,4 @@ struct MainNavigationView: View {
         }
     }
 }
+
