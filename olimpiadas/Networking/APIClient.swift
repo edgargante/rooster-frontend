@@ -14,27 +14,29 @@ class APIClient {
         return AF.request(route)
             .responseDecodable (decoder: decoder) { (response: DataResponse<T, AFError>) in
                 completion(response.result)
-        }
+            }
     }
     
-//    static func getUserTest(id: String, completion:@escaping (Result<User, AFError>)->Void) {
-//        performRequest(route: APIRouter.getUserTest(id: id), completion: completion)
-//    }
+    static func signup(
+        name: String, email: String, role: Int, password: String, completion: @escaping (Result<User, AFError>) -> Void) {
+        performRequest(
+            route: APIRouter.signup(id: 0, name: name, email: email, password: password, role: role), completion: completion)
+    }
     
-    static func signup(id: Int, name: String, email: String, role: Int, password: String, completion:@escaping (Result<User, AFError>)->Void) {
-        performRequest(route: APIRouter.signup(id: id, name: name, email: email, role: role, password: password), completion: completion)
-        }
+    static func login(email: String, password: String, completition: @escaping (Result<User, AFError>) -> Void) {
+        performRequest(
+            route: APIRouter.login(emal: email, password: password),
+            completion: completition
+        )
+    }
     
-
-//    static func login(email: String, password: String, completion:@escaping (Result<User, AFError>)->Void) {
-//        performRequest(route: APIRouter.login(email: email, password: password), completion: completion)
-//    }
-//
-//    static func getArticles(completion:@escaping (Result<[Article], AFError>)->Void) {
-//        let jsonDecoder = JSONDecoder()
-//        jsonDecoder.dateDecodingStrategy = .formatted(.articleDateFormatter)
-//        performRequest(route: APIRouter.articles, decoder: jsonDecoder, completion: completion)
-//    }
+    static func getUser(id: Int,  completition: @escaping (Result<User, AFError>)->Void) {
+        performRequest(route: APIRouter.getUser(id: id), completion: completition)
+    }
+    
+    static func getDisciplines(completition: @escaping (Result<[Discipline], AFError>)->Void) {
+        performRequest(route: APIRouter.getDisciplines, completion: completition)
+    }
 }
 
 

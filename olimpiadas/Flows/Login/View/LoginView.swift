@@ -15,6 +15,7 @@ struct LoginView: View {
     @FocusState private var focusedField: Field?
     @ObservedObject var viewModel = LoginViewModel()
     @State var showAlert = false
+    @Environment(\.presentationMode) var presentationMode
 
     var body: some View {
         NavigationView {
@@ -31,8 +32,10 @@ struct LoginView: View {
                         .foregroundColor(Color.gray)
                 Spacer()
                 Button(action: {
-                    showAlert = !viewModel.loginUser()
-
+                    viewModel.loginUser(email: viewModel.email, pass: viewModel.password)
+                    if $viewModel.isLogged.wrappedValue {
+                        self.presentationMode.wrappedValue.dismiss()
+                    }
                 }) {
                     Text("Ingresar")
                         .font(.headline)

@@ -21,7 +21,7 @@ struct AddDisciplineView: View {
                     .foregroundColor(Color.blue)
                 Spacer()
                 Button(action: {
-                    self.disciplines.append(Discipline(id: UUID().uuidString, name: inputText))
+                    // Action
                     presentationMode.wrappedValue.dismiss()
                 }) {
                     Text("Agregar")

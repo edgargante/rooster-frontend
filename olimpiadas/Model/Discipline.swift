@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct Discipline: Codable, Identifiable {
-    let id: String
-    let name: String
+struct Discipline: Codable, Identifiable, Hashable {
+    let id: Int
+    var discipline_name: String
+    let discipline_date: String
 }

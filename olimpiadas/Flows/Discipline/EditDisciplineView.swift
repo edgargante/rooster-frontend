@@ -15,7 +15,7 @@ struct EditDisciplineView: View {
         NavigationView {
             VStack(spacing: 16) {
                 VStack {
-                    TextField(discipline.name, text: $newName)
+                    TextField(discipline.discipline_name, text: $newName)
                     Rectangle()
                         .frame(height: 1.0, alignment: .bottom)
                         .foregroundColor(Color.gray)

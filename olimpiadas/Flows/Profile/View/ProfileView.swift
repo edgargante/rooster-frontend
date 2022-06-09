@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ProfileView: View {
-    @State var user: User
+    @Binding var user: User
     @ObservedObject var viewModel = ProfileViewModel()
 
     var body: some View {

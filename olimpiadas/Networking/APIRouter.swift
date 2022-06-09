@@ -37,14 +37,19 @@ enum ContentType: String {
 
 enum APIRouter: URLRequestConvertible {
     
-    case signup(id: Int, name: String, email: String, role: Int, password: String)
+    case signup(id: Int, name: String, email: String, password: String, role: Int)
+    case login(emal: String, password: String)
+    case getUser(id: Int)
+    case getDisciplines
     
     // MARK: - HTTPMethod
     private var method: HTTPMethod {
         NetworkActivityLogger.shared.startLogging()
         switch self {
-        case .signup:
+        case .signup, .login:
             return .post
+        case .getUser, .getDisciplines:
+            return .get
         }
     }
     
@@ -53,18 +58,33 @@ enum APIRouter: URLRequestConvertible {
         switch self {
         case .signup:
             return "/user/"
+        case .login:
+            return "/login/"
+        case .getDisciplines, .getUser:
+            return "/api/Discipline/"
         }
     }
-    
     // MARK: - Parameters
     private var parameters: Parameters? {
         switch self {
-        case .signup(let id, let name, let email, let role, let password):
+        case .signup(let id, let name, let email, let password,  let role):
             return [
                 APIConstants.APIParameterKey.email: email,
                 APIConstants.APIParameterKey.password: password,
                 APIConstants.APIParameterKey.name: name,
                 APIConstants.APIParameterKey.role: role,
+                APIConstants.APIParameterKey.id: id
+            ]
+        case .getDisciplines:
+            return nil
+        
+        case .login(let email, let password):
+            return [
+                APIConstants.APIParameterKey.email: email,
+                APIConstants.APIParameterKey.password: password,
+            ]
+        case .getUser(let id):
+            return [
                 APIConstants.APIParameterKey.id: id
             ]
         }
@@ -91,7 +111,6 @@ enum APIRouter: URLRequestConvertible {
                 throw AFError.parameterEncodingFailed(reason: .jsonEncodingFailed(error: error))
             }
         }
-        
         return urlRequest
     }
 }

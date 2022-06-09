@@ -11,21 +11,27 @@ import Combine
 class LoginViewModel: ObservableObject {
     @Published var email = ""
     @Published var password = ""
-    
+    @Published var isLogged = false
+
     var errorMessage = ""
 }
 
 extension LoginViewModel {
-    func loginUser() -> Bool {
-        if email == "admin@dev.com",
-           password == "123456" {
-            let token = UUID().uuidString
-            UserDefaults.standard.set(token, forKey: "token")
-            AppManager.Authenticated.send(true)
-            return true
-        } else {
-            errorMessage = "Credenciales Inválidas"
-            return false
-        }
+    func loginUser(email: String, pass: String) {
+        APIClient.login(
+            email: email,
+            password: pass) { result in
+                switch result {
+                case .success(let user):
+                    let token = UUID().uuidString
+                    UserDefaults.standard.set(token, forKey: "token")
+                    AppManager.LoggedUser.send(user)
+                    AppManager.Authenticated.send(true)
+                    self.isLogged.toggle()
+                case .failure(let error):
+                    print(error)
+                }
+            }
     }
 }
+

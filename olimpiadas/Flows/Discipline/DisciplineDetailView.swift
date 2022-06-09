@@ -18,7 +18,7 @@ struct DisciplineDetailView: View {
         .sheet(isPresented: $showEditView) {
             EditDisciplineView(discipline: self.discipline)
         }
-        .navigationTitle(discipline.name)
+        .navigationTitle(discipline.discipline_name)
         .toolbar {
             Button (
                 action: {

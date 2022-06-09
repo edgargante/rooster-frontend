@@ -13,7 +13,7 @@ struct SignupView: View {
     @State var showAlert = false
     @State var responseMessage = ""
     @Environment(\.presentationMode) var presentationMode
-
+    
     var body: some View {
         NavigationView {
             VStack(spacing: 16) {
@@ -71,24 +71,23 @@ struct SignupView: View {
                 Spacer()
                 Button(action: {
                     APIClient.signup(
-                        id: Int.random(in: 0..<5000),
                         name: userViewModel.username,
                         email: userViewModel.correo,
                         role: Int(userViewModel.code) ?? 5,
-                        password: userViewModel.password) { response in
-                            switch response {
-                            case .success:
-                                self.responseMessage = "Exito con registro"
-                                presentationMode.wrappedValue.dismiss()
-                            case .failure(let error):
-                                let nsError = error as NSError
-                                    print(nsError.localizedDescription)
-                                self.responseMessage = nsError.localizedDescription
-                                self.showAlert.toggle()
-                            }
-                    
-
+                        password: userViewModel.password
+                    ) { response in
+                        switch response {
+                        case .success:
+                            self.responseMessage = "Exito con registro"
+                            presentationMode.wrappedValue.dismiss()
+                        case .failure(let error):
+                            print(error)
+                            self.responseMessage = error.errorDescription?.description ?? ""
+                            self.showAlert.toggle()
                         }
+                        
+                        
+                    }
                 }
                 ) {
                     Text("Registro")
@@ -102,6 +101,7 @@ struct SignupView: View {
             }
             .padding()
             .navigationTitle("Registro")
+            .navigationBarTitleDisplayMode(.inline)
             .alert(isPresented: $showAlert, content: {
                 Alert(title: Text(responseMessage))
             })

@@ -9,22 +9,19 @@ import SwiftUI
 
 struct DisciplineView: View {
     @State var user: User
+    
+    @ObservedObject private var viewModel = DisciplineViewModel()
     @State private var showDisciplineSheet = false
-    @State var disciplines: [Discipline] = [
-        Discipline(id: "0", name: "Natación"),
-        Discipline(id: "1", name: "Clavados"),
-        
-    ]
+
     
     var body: some View {
         NavigationView {
             List {
-                ForEach(disciplines) { discipline in
+                ForEach($viewModel.disciplines, id: \.self) { discipline in
                     NavigationLink {
-                        DisciplineDetailView(discipline: discipline)
+                        DisciplineDetailView(discipline: discipline.wrappedValue)
                     } label: {
-                        Text(discipline.name)
-                        
+                        Text(discipline.discipline_name.wrappedValue)
                     }
                 }
             }
@@ -41,7 +38,7 @@ struct DisciplineView: View {
                     }
                 )
                 .sheet(isPresented: $showDisciplineSheet) {
-                    AddDisciplineView(disciplines: disciplines)
+                    AddDisciplineView(disciplines: viewModel.disciplines)
                 }
             }
         }
